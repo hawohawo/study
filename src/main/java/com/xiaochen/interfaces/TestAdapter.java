@@ -19,18 +19,18 @@ public class TestAdapter implements InitializingBean {
 
     @Override
     public void afterPropertiesSet() throws Exception {
-        if (protocolAdapters != null && !protocolAdapters.isEmpty()) {
-
-            type2Adapter = protocolAdapters.stream()
-                    .peek(adapter -> {
-                        if (adapter instanceof ClientAware) {
-                            ((ClientAware) adapter).setClientManager(this);
-                        }
-                    })
-                    .collect(Collectors.toMap(ProtocolAdapter::protocolType,
-                            Function.identity()));
-        } else {
-            type2Adapter = new HashMap<>();
-        }
+//        if (protocolAdapters != null && !protocolAdapters.isEmpty()) {
+//
+//            type2Adapter = protocolAdapters.stream()
+//                    .peek(adapter -> {
+//                        if (adapter instanceof ClientAware) {
+//                            ((ClientAware) adapter).setClientManager(this);
+//                        }
+//                    })
+//                    .collect(Collectors.toMap(ProtocolAdapter::protocolType,
+//                            Function.identity()));
+//        } else {
+//            type2Adapter = new HashMap<>();
+//        }
     }
 }
