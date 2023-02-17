@@ -1,0 +1,213 @@
+,[main],[INFO ],2023-02-13 09:54:56,378,MySpringBootApplication: Starting MySpringBootApplication on LAPTOP-TJTFFTIV with PID 4108 (D:\apexWork\studyProject\my-camel-app\target\classes started by chenyufeng in D:\apexWork\studyProject\my-camel-app)
+,[main],[INFO ],2023-02-13 09:54:56,389,MySpringBootApplication: No active profile set, falling back to default profiles: default
+,[main],[INFO ],2023-02-13 09:54:57,690,EnableEncryptablePropertiesBeanFactoryPostProcessor: Post-processing PropertySource instances
+,[main],[INFO ],2023-02-13 09:54:57,692,EncryptablePropertySourceConverter: Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+,[main],[INFO ],2023-02-13 09:54:57,692,EncryptablePropertySourceConverter: Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+,[main],[INFO ],2023-02-13 09:54:57,692,EncryptablePropertySourceConverter: Skipping PropertySource servletContextInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+,[main],[INFO ],2023-02-13 09:54:57,693,EncryptablePropertySourceConverter: Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+,[main],[INFO ],2023-02-13 09:54:57,694,EncryptablePropertySourceConverter: Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+,[main],[INFO ],2023-02-13 09:54:57,695,EncryptablePropertySourceConverter: Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+,[main],[INFO ],2023-02-13 09:54:57,695,EncryptablePropertySourceConverter: Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+,[main],[INFO ],2023-02-13 09:54:57,915,DefaultLazyPropertyFilter: Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+,[main],[WARN ],2023-02-13 09:54:58,034,jsr: UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+,[main],[INFO ],2023-02-13 09:54:58,057,servlet: Initializing Spring embedded WebApplicationContext
+,[main],[INFO ],2023-02-13 09:54:58,057,ContextLoader: Root WebApplicationContext: initialization completed in 1638 ms
+,[main],[INFO ],2023-02-13 09:54:58,801,ThreadPoolTaskExecutor: Initializing ExecutorService 'applicationTaskExecutor'
+,[main],[INFO ],2023-02-13 09:54:59,128,EndpointLinksResolver: Exposing 2 endpoint(s) beneath base path '/actuator'
+,[main],[INFO ],2023-02-13 09:54:59,351,undertow: starting server: Undertow - 2.1.0.Final
+,[main],[INFO ],2023-02-13 09:54:59,358,xnio: XNIO version 3.8.0.Final
+,[main],[INFO ],2023-02-13 09:54:59,370,nio: XNIO NIO Implementation Version 3.8.0.Final
+,[main],[INFO ],2023-02-13 09:54:59,408,threads: JBoss Threads version 3.1.0.Final
+,[main],[INFO ],2023-02-13 09:54:59,453,UndertowWebServer: Undertow started on port(s) 8089 (http)
+,[main],[INFO ],2023-02-13 09:54:59,455,RefreshScopeRefreshedEventListener: Refreshing cached encryptable property sources on ServletWebServerInitializedEvent
+,[main],[INFO ],2023-02-13 09:54:59,456,CachingDelegateEncryptablePropertySource: Property Source systemProperties refreshed
+,[main],[INFO ],2023-02-13 09:54:59,456,CachingDelegateEncryptablePropertySource: Property Source systemEnvironment refreshed
+,[main],[INFO ],2023-02-13 09:54:59,456,CachingDelegateEncryptablePropertySource: Property Source random refreshed
+,[main],[INFO ],2023-02-13 09:54:59,456,CachingDelegateEncryptablePropertySource: Property Source applicationConfig: [classpath:/application.yml] refreshed
+,[main],[INFO ],2023-02-13 09:54:59,456,EncryptablePropertySourceConverter: Converting PropertySource server.ports [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+,[main],[INFO ],2023-02-13 09:54:59,456,EncryptablePropertySourceConverter: Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+,[main],[INFO ],2023-02-13 09:54:59,456,EncryptablePropertySourceConverter: Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+,[main],[INFO ],2023-02-13 09:54:59,457,EncryptablePropertySourceConverter: Converting PropertySource servletContextInitParams [org.springframework.web.context.support.ServletContextPropertySource] to EncryptableEnumerablePropertySourceWrapper
+,[main],[INFO ],2023-02-13 09:54:59,457,EncryptablePropertySourceConverter: Converting PropertySource Management Server [org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration$SameManagementContextConfiguration$1] to EncryptablePropertySourceWrapper
+,[main],[INFO ],2023-02-13 09:54:59,731,AbstractCamelContext: Routes startup (total:1 started:1)
+,[main],[INFO ],2023-02-13 09:54:59,731,AbstractCamelContext:     Started hello (timer://hello)
+,[main],[INFO ],2023-02-13 09:54:59,731,AbstractCamelContext: Apache Camel 3.14.2 (camel-1) started in 317ms (build:86ms init:216ms start:15ms)
+,[main],[INFO ],2023-02-13 09:54:59,735,DefaultLazyPropertyResolver: Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+,[main],[INFO ],2023-02-13 09:54:59,736,DefaultLazyPropertyDetector: Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+,[main],[INFO ],2023-02-13 09:54:59,741,MySpringBootApplication: Started MySpringBootApplication in 3.793 seconds (JVM running for 5.79)
+,[RMI TCP Connection(3)-2.0.1.60],[INFO ],2023-02-13 09:54:59,907,servlet: Initializing Spring DispatcherServlet 'dispatcherServlet'
+,[RMI TCP Connection(3)-2.0.1.60],[INFO ],2023-02-13 09:54:59,907,DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+,[RMI TCP Connection(3)-2.0.1.60],[INFO ],2023-02-13 09:54:59,911,DispatcherServlet: Completed initialization in 4 ms
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:00,746,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:00,746,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:00,747,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:02,751,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:02,751,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:02,751,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:04,763,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:04,763,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:04,764,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:06,766,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:06,766,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:06,766,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:08,767,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:08,768,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:08,768,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:10,779,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:10,780,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:10,780,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:12,783,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:12,783,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:12,783,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:14,796,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:14,796,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:14,796,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:16,806,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:16,806,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:16,806,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:18,812,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:18,812,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:18,813,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:20,821,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:20,821,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:20,821,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:22,824,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:22,824,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:22,825,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:24,829,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:24,829,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:24,829,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:26,838,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:26,838,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:26,838,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:28,844,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:28,844,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:28,845,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:30,850,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:30,851,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:30,851,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:32,857,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:32,857,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:32,857,BaseRoute: 456
+,[XNIO-1 task-1],[INFO ],2023-02-13 09:55:33,174,AEventListener: 监听到数据：你若为我繁华，你好呀：1
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:34,866,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:34,866,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:34,866,BaseRoute: 456
+,[XNIO-1 task-1],[INFO ],2023-02-13 09:55:35,176,AEventListener: 监听到数据：你若为我繁华，你好呀：2
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:36,866,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:36,866,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:36,866,BaseRoute: 456
+,[XNIO-1 task-1],[INFO ],2023-02-13 09:55:37,184,AEventListener: 监听到数据：你若为我繁华，你好呀：3
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:38,872,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:38,872,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:38,872,BaseRoute: 456
+,[XNIO-1 task-1],[INFO ],2023-02-13 09:55:39,186,AEventListener: 监听到数据：你若为我繁华，你好呀：4
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:40,880,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:40,880,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:40,880,BaseRoute: 456
+,[XNIO-1 task-1],[INFO ],2023-02-13 09:55:41,198,AEventListener: 监听到数据：你若为我繁华，你好呀：5
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:42,892,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:42,892,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:42,892,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:44,896,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:44,896,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:44,897,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:46,900,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:46,900,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:46,900,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:48,901,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:48,901,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:48,901,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:50,916,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:50,916,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:50,916,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:52,919,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:52,919,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:52,919,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:54,927,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:54,927,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:54,928,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:56,929,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:56,929,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:56,929,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:58,933,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:58,933,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:55:58,933,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:00,941,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:00,941,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:00,941,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:02,945,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:02,945,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:02,945,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:04,953,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:04,953,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:04,953,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:06,958,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:06,958,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:06,958,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:08,966,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:08,966,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:08,966,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:10,967,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:10,967,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:10,967,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:12,979,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:12,979,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:12,979,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:14,993,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:14,993,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:14,993,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:17,002,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:17,002,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:17,002,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:19,018,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:19,018,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:19,018,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:21,032,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:21,032,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:21,032,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:23,044,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:23,044,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:23,044,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:25,052,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:25,052,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:25,052,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:27,057,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:27,057,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:27,057,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:29,057,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:29,057,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:29,058,BaseRoute: 456
+,[XNIO-1 task-1],[INFO ],2023-02-13 09:56:30,004,AEventListener: 监听到数据：你若为我繁华，你好呀：1
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:31,063,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:31,063,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:31,063,BaseRoute: 456
+,[XNIO-1 task-1],[INFO ],2023-02-13 09:56:32,015,AEventListener: 监听到数据：你若为我繁华，你好呀：2
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:33,072,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:33,072,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:33,072,BaseRoute: 456
+,[XNIO-1 task-1],[INFO ],2023-02-13 09:56:34,028,AEventListener: 监听到数据：你若为我繁华，你好呀：3
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:35,084,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:35,084,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:35,084,BaseRoute: 456
+,[XNIO-1 task-1],[INFO ],2023-02-13 09:56:36,029,AEventListener: 监听到数据：你若为我繁华，你好呀：4
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:37,085,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:37,085,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:37,085,BaseRoute: 456
+,[XNIO-1 task-1],[INFO ],2023-02-13 09:56:38,035,AEventListener: 监听到数据：你若为我繁华，你好呀：5
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:39,092,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:39,092,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:39,092,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:41,102,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:41,105,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:41,105,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:43,116,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:43,116,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-13 09:56:43,116,BaseRoute: 456
+,[SpringContextShutdownHook],[INFO ],2023-02-13 09:56:43,507,AbstractCamelContext: Apache Camel 3.14.2 (camel-1) shutting down (timeout:45s)
+,[SpringContextShutdownHook],[INFO ],2023-02-13 09:56:43,512,AbstractCamelContext: Routes stopped (total:1 stopped:1)
+,[SpringContextShutdownHook],[INFO ],2023-02-13 09:56:43,512,AbstractCamelContext:     Stopped hello (timer://hello)
+,[SpringContextShutdownHook],[INFO ],2023-02-13 09:56:43,514,AbstractCamelContext: Apache Camel 3.14.2 (camel-1) shutdown in 7ms (uptime:1m43s)
+,[SpringContextShutdownHook],[INFO ],2023-02-13 09:56:43,515,undertow: stopping server: Undertow - 2.1.0.Final
+,[SpringContextShutdownHook],[INFO ],2023-02-13 09:56:43,518,servlet: Destroying Spring FrameworkServlet 'dispatcherServlet'
+,[SpringContextShutdownHook],[INFO ],2023-02-13 09:56:43,519,ThreadPoolTaskExecutor: Shutting down ExecutorService 'applicationTaskExecutor'
