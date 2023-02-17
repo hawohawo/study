@@ -14,6 +14,6 @@ public class AppProperties {
     /**
      * 测试开关
      */
-    private Boolean switchs = false;
+    private Boolean switchs = true;
 
 }
