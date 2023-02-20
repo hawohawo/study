@@ -1,0 +1,6 @@
+,[SpringContextShutdownHook],[INFO ],2023-02-13 15:29:04,008,AbstractCamelContext: Apache Camel 3.14.2 (camel-1) shutting down (timeout:45s)
+,[SpringContextShutdownHook],[INFO ],2023-02-13 15:29:04,033,AbstractCamelContext: Routes stopped (total:0 stopped:0)
+,[SpringContextShutdownHook],[INFO ],2023-02-13 15:29:04,041,AbstractCamelContext: Apache Camel 3.14.2 (camel-1) shutdown in 36ms (uptime:4h57m16s)
+,[SpringContextShutdownHook],[INFO ],2023-02-13 15:29:04,043,undertow: stopping server: Undertow - 2.1.0.Final
+,[SpringContextShutdownHook],[INFO ],2023-02-13 15:29:04,054,servlet: Destroying Spring FrameworkServlet 'dispatcherServlet'
+,[SpringContextShutdownHook],[INFO ],2023-02-13 15:29:04,060,ThreadPoolTaskExecutor: Shutting down ExecutorService 'applicationTaskExecutor'

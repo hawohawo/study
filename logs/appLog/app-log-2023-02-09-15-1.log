@@ -1,0 +1,74 @@
+,[main],[INFO ],2023-02-09 15:06:48,323,MySpringBootApplication: Starting MySpringBootApplication on LAPTOP-TJTFFTIV with PID 2900 (D:\apexWork\studyProject\my-camel-app\target\classes started by chenyufeng in D:\apexWork\studyProject\my-camel-app)
+,[main],[INFO ],2023-02-09 15:06:48,333,MySpringBootApplication: No active profile set, falling back to default profiles: default
+,[main],[INFO ],2023-02-09 15:06:49,448,EnableEncryptablePropertiesBeanFactoryPostProcessor: Post-processing PropertySource instances
+,[main],[INFO ],2023-02-09 15:06:49,450,EncryptablePropertySourceConverter: Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+,[main],[INFO ],2023-02-09 15:06:49,450,EncryptablePropertySourceConverter: Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+,[main],[INFO ],2023-02-09 15:06:49,450,EncryptablePropertySourceConverter: Skipping PropertySource servletContextInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+,[main],[INFO ],2023-02-09 15:06:49,451,EncryptablePropertySourceConverter: Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+,[main],[INFO ],2023-02-09 15:06:49,452,EncryptablePropertySourceConverter: Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+,[main],[INFO ],2023-02-09 15:06:49,452,EncryptablePropertySourceConverter: Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+,[main],[INFO ],2023-02-09 15:06:49,452,EncryptablePropertySourceConverter: Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+,[main],[INFO ],2023-02-09 15:06:49,641,DefaultLazyPropertyFilter: Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+,[main],[WARN ],2023-02-09 15:06:49,759,jsr: UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+,[main],[INFO ],2023-02-09 15:06:49,781,servlet: Initializing Spring embedded WebApplicationContext
+,[main],[INFO ],2023-02-09 15:06:49,781,ContextLoader: Root WebApplicationContext: initialization completed in 1421 ms
+,[main],[INFO ],2023-02-09 15:06:50,467,ThreadPoolTaskExecutor: Initializing ExecutorService 'applicationTaskExecutor'
+,[main],[INFO ],2023-02-09 15:06:50,742,EndpointLinksResolver: Exposing 2 endpoint(s) beneath base path '/actuator'
+,[main],[INFO ],2023-02-09 15:06:50,925,undertow: starting server: Undertow - 2.1.0.Final
+,[main],[INFO ],2023-02-09 15:06:50,930,xnio: XNIO version 3.8.0.Final
+,[main],[INFO ],2023-02-09 15:06:50,937,nio: XNIO NIO Implementation Version 3.8.0.Final
+,[main],[INFO ],2023-02-09 15:06:50,966,threads: JBoss Threads version 3.1.0.Final
+,[main],[INFO ],2023-02-09 15:06:51,001,UndertowWebServer: Undertow started on port(s) 8089 (http)
+,[main],[INFO ],2023-02-09 15:06:51,002,RefreshScopeRefreshedEventListener: Refreshing cached encryptable property sources on ServletWebServerInitializedEvent
+,[main],[INFO ],2023-02-09 15:06:51,003,CachingDelegateEncryptablePropertySource: Property Source systemProperties refreshed
+,[main],[INFO ],2023-02-09 15:06:51,003,CachingDelegateEncryptablePropertySource: Property Source systemEnvironment refreshed
+,[main],[INFO ],2023-02-09 15:06:51,003,CachingDelegateEncryptablePropertySource: Property Source random refreshed
+,[main],[INFO ],2023-02-09 15:06:51,003,CachingDelegateEncryptablePropertySource: Property Source applicationConfig: [classpath:/application.yml] refreshed
+,[main],[INFO ],2023-02-09 15:06:51,003,EncryptablePropertySourceConverter: Converting PropertySource server.ports [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+,[main],[INFO ],2023-02-09 15:06:51,003,EncryptablePropertySourceConverter: Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+,[main],[INFO ],2023-02-09 15:06:51,003,EncryptablePropertySourceConverter: Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+,[main],[INFO ],2023-02-09 15:06:51,004,EncryptablePropertySourceConverter: Converting PropertySource servletContextInitParams [org.springframework.web.context.support.ServletContextPropertySource] to EncryptableEnumerablePropertySourceWrapper
+,[main],[INFO ],2023-02-09 15:06:51,004,EncryptablePropertySourceConverter: Converting PropertySource Management Server [org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration$SameManagementContextConfiguration$1] to EncryptablePropertySourceWrapper
+,[main],[INFO ],2023-02-09 15:06:51,218,AbstractCamelContext: Routes startup (total:1 started:1)
+,[main],[INFO ],2023-02-09 15:06:51,218,AbstractCamelContext:     Started hello (timer://hello)
+,[main],[INFO ],2023-02-09 15:06:51,218,AbstractCamelContext: Apache Camel 3.14.2 (camel-1) started in 272ms (build:94ms init:161ms start:17ms)
+,[main],[INFO ],2023-02-09 15:06:51,222,DefaultLazyPropertyResolver: Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+,[main],[INFO ],2023-02-09 15:06:51,223,DefaultLazyPropertyDetector: Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+,[main],[INFO ],2023-02-09 15:06:51,229,MySpringBootApplication: Started MySpringBootApplication in 3.322 seconds (JVM running for 4.495)
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-09 15:06:52,234,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-09 15:06:52,235,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-09 15:06:52,236,BaseRoute: 456
+,[RMI TCP Connection(3)-2.0.1.65],[INFO ],2023-02-09 15:06:52,265,servlet: Initializing Spring DispatcherServlet 'dispatcherServlet'
+,[RMI TCP Connection(3)-2.0.1.65],[INFO ],2023-02-09 15:06:52,266,DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+,[RMI TCP Connection(3)-2.0.1.65],[INFO ],2023-02-09 15:06:52,269,DispatcherServlet: Completed initialization in 3 ms
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-09 15:06:54,240,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-09 15:06:54,240,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-09 15:06:54,240,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-09 15:06:56,250,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-09 15:06:56,251,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-09 15:06:56,251,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-09 15:06:58,262,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-09 15:06:58,263,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-09 15:06:58,263,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-09 15:07:00,267,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-09 15:07:00,268,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-09 15:07:00,268,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-09 15:07:02,280,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-09 15:07:02,280,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-09 15:07:02,280,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-09 15:07:04,289,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-09 15:07:04,289,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-09 15:07:04,289,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-09 15:07:06,293,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-09 15:07:06,293,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-09 15:07:06,293,BaseRoute: 456
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-09 15:07:08,295,BaseRoute: 异常信息捕获
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-09 15:07:08,296,BaseRoute: 最后的处理
+,[Camel (camel-1) thread #1 - timer://hello],[INFO ],2023-02-09 15:07:08,296,BaseRoute: 456
+,[SpringContextShutdownHook],[INFO ],2023-02-09 15:07:10,144,AbstractCamelContext: Apache Camel 3.14.2 (camel-1) shutting down (timeout:45s)
+,[SpringContextShutdownHook],[INFO ],2023-02-09 15:07:10,148,AbstractCamelContext: Routes stopped (total:1 stopped:1)
+,[SpringContextShutdownHook],[INFO ],2023-02-09 15:07:10,148,AbstractCamelContext:     Stopped hello (timer://hello)
+,[SpringContextShutdownHook],[INFO ],2023-02-09 15:07:10,150,AbstractCamelContext: Apache Camel 3.14.2 (camel-1) shutdown in 6ms (uptime:18s949ms)
+,[SpringContextShutdownHook],[INFO ],2023-02-09 15:07:10,151,undertow: stopping server: Undertow - 2.1.0.Final
+,[SpringContextShutdownHook],[INFO ],2023-02-09 15:07:10,156,servlet: Destroying Spring FrameworkServlet 'dispatcherServlet'
+,[SpringContextShutdownHook],[INFO ],2023-02-09 15:07:10,157,ThreadPoolTaskExecutor: Shutting down ExecutorService 'applicationTaskExecutor'

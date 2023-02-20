@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <properties>
+        <!-- 文件输出格式 -->
+        <property name="PATTERN-ZONE">
+            %X{logid},[%t],[%-5level],%d{yyyy-MM-dd hh:mm:ss.SSS,CTT},%c{1}: %msg%n
+        </property>
+        <!-- 日志根路径 -->
+        <property name="basePath">
+            logs
+        </property>
+
+        <!-- 应用日志 -->
+        <property name="app-log">
+            ${basePath}/appLog/app-log.log
+        </property>
+        <property name="rollingfile-app-log">
+            ${basePath}/appLog/app-log-%d{yyyy-MM-dd-HH}-%i.log
+        </property>
+        <!-- 定时任务调度日志 -->
+        <property name="scheduler-log">
+            ${basePath}/schedulerLog/scheduler-log.log
+        </property>
+        <property name="rollingfile-scheduler-log">
+            ${basePath}/schedulerLog/scheduler-log-%d{yyyy-MM-dd}-%i.log
+        </property>
+        <!-- 测试日志 -->
+        <property name="test-log">
+            ${basePath}/testLog/test-log.log
+        </property>
+        <property name="rollingfile-test-log">
+            ${basePath}/testLog/test-log-%d{yyyy-MM-dd}-%i.log
+        </property>
+
+    </properties>
+
+    <appenders>
+        <!-- 控制台 -->
+        <!-- 日志格式化类（PatternLayout） -->
+        <Console name="CONSOLE" target="SYSTEM_OUT">
+            <PatternLayout pattern="${PATTERN-ZONE}"/>
+        </Console>
+
+        <Async name="AsyncCONSOLE">
+            <AppenderRef ref="CONSOLE"/>
+        </Async>
+
+        <!-- 运行日志 -->
+        <RollingFile name="app_log_file_Log"
+                     filename="${app-log}" filePattern="${rollingfile-app-log}"
+                     append="true">
+            <PatternLayout pattern="${PATTERN-ZONE}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="100"/>
+        </RollingFile>
+        <RollingFile name="scheduler_log_file_Log"
+                     filename="${scheduler-log}" filePattern="${rollingfile-scheduler-log}"
+                     append="true">
+            <PatternLayout pattern="${PATTERN-ZONE}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="100"/>
+        </RollingFile>
+        <RollingFile name="test_log_file_Log"
+                     filename="${test-log}" filePattern="${rollingfile-test-log}"
+                     append="true">
+            <PatternLayout pattern="${PATTERN-ZONE}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="100"/>
+        </RollingFile>
+    </appenders>
+
+    <loggers>
+
+        <Root level="info" additivity="false">
+            <AppenderRef ref="CONSOLE"/>
+            <appender-ref ref="app_log_file_Log"/>
+        </Root>
+
+<!--        <logger name="app" level="info" additivity="false">-->
+<!--            <AppenderRef ref="CONSOLE"/>-->
+<!--            <appender-ref ref="app_log_file_Log"/>-->
+<!--        </logger>-->
+
+        <logger name="scheduler" level="info" additivity="false">
+            <appender-ref ref="scheduler_log_file_Log"/>
+        </logger>
+
+        <logger name="test" level="info" additivity="false">
+            <appender-ref ref="test_log_file_Log"/>
+        </logger>
+
+    </loggers>
+
+</configuration>
