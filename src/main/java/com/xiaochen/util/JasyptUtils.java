@@ -69,7 +69,7 @@ public class JasyptUtils {
         System.out.println(jasyptEncrypt);
 
         // 这是用来解密的
-        String jasyptEncrypt1 = stringEncryptor(password, "ShonwFuzgeRsDo2IIVgf8WLENqgpVsV+", false);
+        String jasyptEncrypt1 = stringEncryptor(password, "Q+tonMQ/nNqyuSmWXD8ow6wGhBOdQ1FG", false);
         System.out.println(jasyptEncrypt1);
     }
 }
