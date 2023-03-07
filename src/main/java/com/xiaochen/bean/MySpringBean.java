@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 @Component("myBean")
 public class MySpringBean {
 
-//    @Value("${greeting}")
+    @Value("${greeting}")
     private String say;
 
     public String saySomething() {

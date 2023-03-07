@@ -23,7 +23,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <spring.boot-version>2.3.0.RELEASE</spring.boot-version>
+    <spring.boot-version>2.6.8</spring.boot-version>
   </properties>
 
   <dependencyManagement>
@@ -148,7 +148,6 @@
       <artifactId>curator-framework</artifactId>
       <version>4.3.0</version>
     </dependency>
-
 
     <!-- Test -->
     <dependency>

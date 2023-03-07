@@ -23,11 +23,14 @@ public class BaseRoute extends EndpointRouteBuilder {
 //                .process(exchange -> {
 //                    throw new BusinessException("测试用得");
 //                })
-//                .transform().method("myBean", "saySomething")
-//                .filter(simple("${body} contains 'foo'"))
-//                .to("log:foo")
 //                .end()
-//                .to("stream:out");
+//                .transform()
+//                .method("myBean", "saySomething")
+//                .filter(simple("${body} contains 'giao'"))
+//                .to("log:giao")
+//                .end();
+
+
 //        from("timer:hello?period={{timer.period}}").routeId("hello")
 //                .onException(BusinessException.class)
 //                .maximumRedeliveries(3)
